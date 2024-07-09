@@ -1,0 +1,38 @@
+.service-section{
+    height: 900px;
+    align-content: center;
+}
+.service{
+    margin-top: 5px;
+    color: #282c34;
+    padding: 10px;
+    -webkit-box-shadow: 3px 3px 6px 0px rgba(71,70,71,1);
+    -moz-box-shadow: 3px 3px 6px 0px rgba(71,70,71,1);
+    box-shadow: 3px 3px 6px 0px rgba(71,70,71,1);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.service:hover{
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    transition-duration: 1s;
+    cursor: pointer;
+    border-left: solid 3px purple;
+}
+
+
+.section-title h5{
+    text-align: center;
+}
+.service_underline{
+    display: block;
+    width:100%;
+    height: 0.1px;
+    background-color: #CD5C5C;
+    margin-bottom: 10px;
+}
+
+.list-service p{
+}
