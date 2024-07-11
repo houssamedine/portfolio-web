@@ -10,7 +10,7 @@
     -moz-box-shadow: 3px 3px 6px 0px rgba(71,70,71,1);
     box-shadow: 3px 3px 6px 0px rgba(71,70,71,1);
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .service:hover{
@@ -19,12 +19,19 @@
     box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
     transition-duration: 1s;
     cursor: pointer;
-    border-left: solid 3px purple;
+    border-left: solid 4px purple;
 }
 
 
 .section-title h5{
     text-align: center;
+}
+.line-service {
+    display: block;
+    height: 03px;
+    width: 100px;
+    background-color: #CD5C5C;
+    margin: 5px auto 20px;
 }
 .service_underline{
     display: block;
@@ -32,6 +39,23 @@
     height: 0.1px;
     background-color: #CD5C5C;
     margin-bottom: 10px;
+}
+.service-number{
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    color: white;
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: -30px auto 0;
+}
+
+.service-number p{
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
 }
 
 .list-service p{

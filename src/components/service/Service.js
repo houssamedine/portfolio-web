@@ -13,20 +13,26 @@ export default function Service() {
         {id:7,service:"Web Development",service2:"Mobile App Development",service3:"UI/UX Design",service4:"Digital Marketing"},
         {id:8,service:"Web Development",service2:"Mobile App Development",service3:"UI/UX Design",service4:"Digital Marketing"},
     ]
+    const colors=[
+        "#CD5C5C", "#6495ED","#088f8f","#36ff25",
+        "#e48c6f","#ab11ce","#df5be7","#ffe51e"
+    ]
 
     return (
         <div className="container service-section">
             <div className='section-title'>
                 <h5>Services</h5>
-                <span className="line"></span>
+                <span className="line-service"></span>
             </div>
 
             <div className="row">
                 {serviceData.map((item, index) => {
                     return (
-                        <div className="col-xl-3 col-lg-3 col-md-12 col-sm-12" key={index}>
+                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12" key={index}>
                             <div className="service">
-                                <span className="service-number"><p>{item.id}</p></span>
+                                <span className="service-number" style={{backgroundColor:colors[index]}}>
+                                    <p>{item.id}</p>
+                                </span>
                                 <div className="list-service">
                                     <p><FcOk size={20} style={{margin: "5px"}}/>{item.service}</p>
                                     <span className="service_underline"></span>
